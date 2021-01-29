@@ -1,5 +1,5 @@
 window.onload = function() {
-    
+    let numbers = ['A',1,2,3,4,5,6,7,8,9,10,'J','Q','K']; //14
     let number = document.querySelector('#number');
     let random = getRandom(11);
     let symbol = getSymbol(getRandom(4));
@@ -9,7 +9,7 @@ window.onload = function() {
         top.style.color = 'black';
         bottom.style.color = 'black';
     }
-    number.innerHTML = random;
+    number.innerHTML = numbers[getRandom(14)];
     top.innerHTML = symbol;
     bottom.innerHTML = symbol;
     
