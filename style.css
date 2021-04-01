@@ -31,6 +31,9 @@ body{
 }
 .button{
     position: absolute;
-    left:2%;
-    top: 80%;
+    right:2%;
+    top: 90%;
+    color: white;
+    background-color: red;
+    border-radius: 10px;
 }
