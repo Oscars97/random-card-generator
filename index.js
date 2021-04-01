@@ -1,7 +1,7 @@
 let reset = document.querySelector("#reset");
 reset.addEventListener('click',()=>{
     location.reload();
-})
+});
 window.onload = function() {
     let numbers = ['A',1,2,3,4,5,6,7,8,9,10,'J','Q','K']; //14
     let number = document.querySelector('#number');
