@@ -5,7 +5,7 @@ body{
     padding: 0;
     background-color: #0e7e12;
 }
-.card{
+.cards{
     background-color: white;
     width: 27%;
     height: 520px;
@@ -29,8 +29,8 @@ body{
     float: right;
     rotate: 180deg;
 }
-/* .button{
+.button{
     position: absolute;
     left:2%;
     top: 80%;
-} */
+}
